@@ -503,13 +503,17 @@ div >.bg-image {
 @media screen and (min-width: 800px) {
     .sidenav {
         position: absolute;
-        background: none;
+        background: none !important;
         left: 0px;
         padding-top: 16px;
         margin-left: 31px;
         transition: left 0.5s ease;
         box-shadow: none;
         border: none;
+    }
+
+    .sidenav.active{
+        background-color: transparent !important;
     }
 
     .sidenav .close {
@@ -521,6 +525,19 @@ div >.bg-image {
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 150px) and (max-width: 348px) {
 
