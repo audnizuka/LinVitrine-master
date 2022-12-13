@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Nixie+One&display=swap');
+
+footer {
+    margin-top: -4%;
+    /*padding: 4.5rem;*/
+}
+
+a:link {
+    color: rgb(27, 27, 27);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(27, 27, 27);
+    background-color: transparent;
+}
+
+a:hover {
+    color: rgb(0, 0, 0)!important;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+}
+
+h5 {
+    z-index: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 150px) and (max-width: 348px) {
+    .bg-image {
+        background-image: url(./photo/portrait_I-Fang_Lin_C_DominiqueLibert-1000x500.jpg);
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        margin: 1em;
+        margin-top: 0.7em;
+        overflow: scroll;
+        transition: 0.5s;
+    }
+
+    .contact {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Nixie One', cursive;
+        margin: 0% -6% 0% -6%;
+    }
+
+    footer {
+        padding: 0rem;;
+        margin: 2% 5.5% 0% 5.5%;
+        display: flex;
+        flex-direction: column;
+        transition: 0.5s;
+    }
+}
+
+
+@media screen and (min-width: 349px) and (max-width: 430px) {
+
+    .bg-image {
+        background-image: url(./photo/portrait_I-Fang_Lin_C_DominiqueLibert-1000x500.jpg);
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        margin: 1em;
+        margin-top: 0.7em;
+        overflow: scroll;
+        transition: 0.5s;
+    }
+
+    .contact {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Nixie One', cursive;
+        margin: 0% -6% 0% -6%;
+    }
+
+    footer {
+        padding: 0rem;;
+        margin: 2% 4.5% 0% 4.5%;
+        display: flex;
+        flex-direction: column;
+        transition: 0.5s;
+    }
+}
+
+@media screen and (min-width: 431px) and (max-width: 699px) {
+
+
+
+    .bg-image {
+        background-image: url(./photo/portrait_I-Fang_Lin_C_DominiqueLibert-1000x500.jpg);
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        padding: 15em;
+        margin: 1em;
+        margin-top: 0.7em;
+        overflow: scroll;
+        transition: 0.5s;
+    }
+
+    .presentation {
+        position: absolute;
+        text-align: center;
+        padding: 6em;
+        margin-top: 35%;
+        transition: 0.5s;
+    }
+
+    .contact {
+        margin-top: 1%;
+        padding-left: 1.75rem;
+    }
+
+    footer {
+        padding: 0rem;;
+        margin: 2% 16.5% 0% 16.5%;
+        display: flex;
+        flex-direction: column;
+        transition: 0.5s;
+    }
+
+}
+
+
+@media screen and (min-width: 700px) and (max-width: 770px) {
+
+
+    .bg-image {
+        background-image: url(./photo/portrait_I-Fang_Lin_C_DominiqueLibert-1000x500.jpg);
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        padding: 15em;
+        margin: 1em;
+        margin-top: 0.7em;
+        overflow: scroll;
+        transition: 0.5s;
+    }
+
+    .presentation {
+        position: absolute;
+        text-align: center;
+        padding: 5em;
+        margin-top: 78%;
+        transition: 0.5s;
+    }
+
+    .contact {
+        margin-top: 1%;
+        padding-left: 1.75rem;
+    }
+
+    footer {
+        padding: 0rem;;
+        margin: 2% 16% 0% 16%;
+        display: flex;
+        flex-direction: column;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (min-width: 771px) and (max-width: 990px) {
+
+    .btn-group-vertical {
+        background-color: #ffffff;
+    }
+
+    .sidenav{
+    width: 9em;
+}
+
+    .bg-image {
+        background-image: url(./photo/portrait_I-Fang_Lin_C_DominiqueLibert-1000x500.jpg);
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        padding: 15em;
+        margin: 1em;
+        margin-top: 0.7em;
+        overflow: scroll;
+        transition: 0.5s;
+    }
+
+    .presentation {
+        position: absolute;
+        text-align: center;
+        padding: 5em;
+        margin-top: 60%;
+        transition: 0.5s;
+    }
+
+    .contact {
+        margin-top: 1%;
+        padding-left: 1.75rem;
+    }
+
+    footer {
+        padding: 0rem;;
+        margin: 2% 17% 0% 17%;
+        display: flex;
+        flex-direction: column;
+        transition: 0.5s;
+    }
+
+}
+
+
+@media screen and (min-width: 991px) and (max-width: 1110px) {
+
+    .btn-group-vertical {
+        background-color: #ffffff;
+    }
+
+    .sidenav{
+        width: 9em;
+    }
+
+    .presentation {
+        margin-top: 10em;
+        margin-left: 36em;
+        margin-right: 0.3em;
+        transition: 0.5s;
+    }
+
+    p {
+        color: rgb(255, 255, 255);
+        font-size: 0.9rem;
+        font-family: monospace;
+        text-align: right;
+    }
+
+    .nom {
+        transition: 0.5s;
+    }
+
+    h1 {
+        font-size: 3rem;
+        font-weight: bolder;
+        font-family: 'Nixie One', cursive;
+    }
+
+    .bg-image {
+        width: 100%;
+        padding: 30%;
+        margin-top: 0.8em;
+        transition: 0.5s;
+    }
+
+    footer {
+        padding: 0rem;;
+        margin: 2% 9.5% 0% 9.5%;
+        transition: 0.5s;
+    }
+}
+
+
+@media screen and (min-width: 1111px) {
+
+    .btn-group-vertical {
+        background-color: #ffffff;
+    }
+
+    .sidenav{
+        width: 9em;
+    }
+
+    .presentation {
+        margin-top: 10.1em;
+        margin-left: 35em;
+        margin-right: 0.3em;
+        transition: 0.5s;
+    }
+
+    p {
+        color: rgb(255, 255, 255);
+        font-size: 0.9rem;
+        font-family: monospace;
+        text-align: right;
+    }
+
+    .nom {
+        transition: 0.5s;
+    }
+
+    h1 {
+        font-size: 3rem;
+        font-weight: bolder;
+        font-family: 'Nixie One', cursive;
+    }
+
+    .bg-image {
+        width: 100%;
+        padding: 30%;
+        margin-top: 1em;
+        transition: 0.5s;
+    }
+
+    footer {
+        padding: 0rem;;
+        margin: 1% 12% 0% 12%;
+        transition: 0.5s;
+    }
+}
+
+@media screen and (min-width: 1170px) {
+
+    .btn-group-vertical {
+        background-color: #ffffff;
+    }
+
+    .sidenav{
+        width: 9em;
+    }
+
+    .presentation {
+        margin-top: 11.5em;
+        margin-left: 34.5em;
+        margin-right: 0.3em;
+    }
+
+    p {
+        color: rgb(255, 255, 255);
+        font-size: 0.9rem;
+        font-family: monospace;
+        text-align: right;
+    }
+
+    .nom {
+        transition: 0.5s;
+    }
+
+    h1 {
+        font-size: 3rem;
+        font-weight: bolder;
+        font-family: 'Nixie One', cursive;
+    }
+
+    .bg-image {
+        width: 100%;
+        padding: 30%;
+        transition: 0.5s;
+    }
+
+    footer {
+        padding: 0rem;;
+        margin: 2% 12.5% 0% 12.5%;
+        transition: 0.5s;
+    }
+}
+
+@media screen and (min-width: 1190px) {
+
+    .btn-group-vertical {
+        background-color: #ffffff;
+    }
+
+    .sidenav{
+        width: 9em;
+    }
+
+    .presentation {
+        margin-top: 18.5em;
+        margin-left: 60%;
+        margin-right: 0.3em;
+    }
+
+    p {
+        color: rgb(255, 255, 255);
+        font-size: 0.9rem;
+        font-family: monospace;
+        text-align: right;
+    }
+
+    .nom {
+        transition: 0.5s;
+    }
+
+    h1 {
+        font-size: 3rem;
+        font-weight: bolder;
+        font-family: 'Nixie One', cursive;
+    }
+
+    .bg-image {
+        width: 100%;
+        padding: 30%;
+        transition: 0.5s;
+    }
+
+    footer {
+        padding: 0rem;
+        margin: 2% 5.5% 0% 5.5%;
+        transition: 0.5s;
+    }
+}
