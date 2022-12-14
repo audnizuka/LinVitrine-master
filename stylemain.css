@@ -11,15 +11,15 @@ body {
     font-family: 'Courier New', Courier, monospace;
     box-sizing: content-box;
 }
-
+/* 
 .container {
     display: flex !important;
     flex-direction: row;
-    justify-content: space-evenly;
 }
 
-.box1 .sidenav{
-position: fixed;
+.container .bg-image {
+    align-self: stretch;
+    flex-flow: row wrap;
 }
 
 /*Main*/
@@ -27,8 +27,13 @@ position: fixed;
 .box1 {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 
 }
+
+.box1 .sidenav{
+    align-self: flex-start;
+    }
 
 .box1 .presentation {
     position: absolute;
@@ -49,6 +54,8 @@ position: fixed;
 
 }
 
+
+
 .bg-image {
     flex-grow: 5;
     background-repeat: no-repeat;
@@ -56,7 +63,7 @@ position: fixed;
     background-size: contain;
     width: 100%;
     height: 100%;
-    padding: 34.4em;
+/*   padding: 34.4em;*/
     margin: 1em;
     margin-top: -4em;
     overflow: scroll;
