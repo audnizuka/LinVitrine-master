@@ -3,14 +3,35 @@
 body {
     background: rgb(255, 255, 255);
     margin: auto !important;
-
-    /*    
-    max-width: 1200px;
-    max-height: 1090px;
-*/
+    max-width: 2300px;
+    max-height: 1290px;
     font-family: 'Courier New', Courier, monospace;
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 0.75rem;;
+}
+
+
+header {
+    width: 2300px;
+    height: 800px;
+    border: 1px solid #000 ;    
+    position: relative;
+
+}
+
+.bg-image {
+    align-self: center;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    margin-top: 1em;
+}
+
 /* 
 .container {
     display: flex !important;
@@ -22,7 +43,7 @@ body {
     flex-flow: row wrap;
 }
 
-/*Main*/
+/*Main
 
 .box1 {
     display: flex;
@@ -54,19 +75,37 @@ body {
 
 }
 
+*/
+.conteneur{
+    display: flex;
+    flex-direction: row;
+
+    width: auto;
+    height: auto;
+}
 
 
-.bg-image {
-    flex-grow: 5;
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: contain;
-    width: 100%;
-    height: 100%;
-/*   padding: 34.4em;*/
-    margin: 1em;
-    margin-top: -4em;
-    overflow: scroll;
+.sidenav {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.presentation {
+    position: absolute;
+
+    background-color: #fff;
+    width: 25%;
+    margin: 0.75em;
+}
+
+.conteneur .presentation{
+    bottom: 0;
+    right: 0;
+}
+
+.presentation section {
+    margin: 1.25em;
 }
 
 /*
@@ -92,7 +131,12 @@ p {
     font-family: 'Courier New', Courier, monospace;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Nixie One', cursive !important;
 }
 
@@ -132,8 +176,7 @@ h3 {
 
 /*footer*/
 footer {
-    margin-top: 40%;
-    padding: 3.5rem;
+    margin: 2.75em 0 0 0;
     position: relative;
     font-weight: bolder;
     font-family: 'Nixie One', cursive;
@@ -418,13 +461,15 @@ li {
 @media screen and (max-width: 768px) {}
 
 
-@media screen and (min-width: 769px) {
 
-    /*Menu Medium & Large Screen*/
+
+/*Menu Medium & Large Screen*/
+
+@media screen and (min-width: 769px) {
 
     .sidenav {
         position: absolute;
-        height: 16%;
+        height: 18.7em;
         background: white;
         left: 0px;
         margin-left: 31px;
@@ -446,9 +491,7 @@ li {
 
 @media screen and (min-width: 1025px) {
 
-    .bg-image{
-        padding-right: 58.4em;
-        padding-left: 58.4em;
-        padding-top: 67.4em;
+    .bg-image {
+
     }
 }
