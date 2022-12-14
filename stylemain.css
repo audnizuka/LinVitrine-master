@@ -3,7 +3,7 @@
 body {
     background: rgb(255, 255, 255);
     margin: auto !important;
-    max-width: 2300px;
+    max-width: 140rem;
     max-height: 1290px;
     font-family: 'Courier New', Courier, monospace;
     box-sizing: border-box;
@@ -17,9 +17,8 @@ main {
 
 
 header {
-    width: 2300px;
-    height: 800px;
-    border: 1px solid #000 ;    
+    width: 100%;
+    height: 50rem;   
     position: relative;
 
 }
@@ -89,14 +88,13 @@ header {
     position: absolute;
     top: 0;
     left: 0;
+    margin-left: 0;
 }
 
 .presentation {
     position: absolute;
-
     background-color: #fff;
-    width: 25%;
-    margin: 0.75em;
+    width: 28%;
 }
 
 .conteneur .presentation{
@@ -104,8 +102,16 @@ header {
     right: 0;
 }
 
-.presentation section {
+section {
     margin: 1.25em;
+}
+
+main{
+    margin: 1.75rem 0 1.75rem 0;
+}
+
+.presentation-large {
+    text-align: center;
 }
 
 /*
@@ -119,7 +125,7 @@ header {
 
 p {
     color: rgb(0, 0, 0);
-    font-size: 0.9rem;
+    font-size: 1rem !important;
     font-family: monospace;
 }
 
@@ -209,6 +215,10 @@ footer .bi:hover {
 
 
 /*Accordion*/
+
+#openBtn{
+    margin: 0.75rem;
+}
 
 button {
     color: black !important;
@@ -458,7 +468,17 @@ li {
 
 /*Media Queries*/
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+    .presentation{
+        bottom: -1.75rem !important;
+        width: 100%;
+        text-align: center;
+    }
+
+    p{
+        font-size: 0.97rem !important;
+    }
+}
 
 
 
@@ -472,7 +492,7 @@ li {
         height: 18.7em;
         background: white;
         left: 0px;
-        margin-left: 31px;
+        margin-top: 0.75rem;
         border: none;
     }
 
@@ -489,9 +509,12 @@ li {
     }
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 770px) and (max-width:1180px){
+    p{
+        font-size: 1rem !important;
+    }
 
-    .bg-image {
-
+    .presentation{
+        width: 40%;
     }
 }
