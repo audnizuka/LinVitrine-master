@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Nixie+One&display=swap');
+
+body {
+    background: rgb(255, 255, 255);
+    margin: auto !important;
+
+    /*    
+    max-width: 1200px;
+    max-height: 1090px;
+*/
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: content-box;
+}
+
+.container {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.box1 .sidenav{
+position: fixed;
+}
+
+/*Main*/
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.box1 .presentation {
+    position: absolute;
+    align-self: flex-end;
+    flex-shrink: 2;
+    height: 18em;
+    width: 22em;
+    background-color: #fff;
+}
+
+.presentation *{
+    margin: 0.75em;
+    text-align: left;
+}
+
+.box1 .presentation-large{
+    position: relative;
+
+}
+
+.bg-image {
+    flex-grow: 5;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    padding: 34.4em;
+    margin: 1em;
+    margin-top: -4em;
+    overflow: scroll;
+}
+
+/*
+.presentation {
+    position: absolute;
+    text-align: center;
+    padding: 2.5em;
+    margin-top: 50%;
+}
+*/
+
+p {
+    color: rgb(0, 0, 0);
+    font-size: 0.9rem;
+    font-family: monospace;
+}
+
+#txt1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#txt2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Nixie One', cursive !important;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1em;
+    font-weight: bolder;
+    font-weight: 1000;
+}
+
+
+.contact {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nixie One', cursive;
+    margin-top: -18%;
+    padding-left: 1.75rem;
+}
+
+.contact h1,
+.contact h2 {
+    font-weight: 600;
+}
+
+.box2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/*footer*/
+footer {
+    margin-top: 40%;
+    padding: 3.5rem;
+    position: relative;
+    font-weight: bolder;
+    font-family: 'Nixie One', cursive;
+}
+
+.icon {
+    height: auto;
+    width: auto;
+    max-width: 1.3em;
+    max-height: 1.3em;
+}
+
+.bi {
+    z-index: 0;
+    color: rgb(124, 124, 124);
+}
+
+footer .bi:hover {
+    fill: rgb(0, 0, 0) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Accordion*/
+
+button {
+    color: black !important;
+}
+
+.dropdown-toggle {
+    float: left;
+}
+
+.dropdown-menu.show {
+    position: relative !important;
+    clear: both;
+    margin-top: 0;
+    transform: none !important;
+}
+
+.dropdown-item {
+    background-color: #ffffff;
+}
+
+.btn-outline-dark:hover {
+    color: #fff;
+    background-color: #000 !important;
+    border-color: #CCC;
+}
+
+.btn-outline-dark:active,
+.btn-outline-dark:focus {
+    color: #fff !important;
+    background-color: #000 !important;
+    border-color: #CCC;
+}
+
+.sidenav.active {
+    color: #fff;
+    background-color: rgb(255, 255, 255) !important;
+    border-color: rgb(255, 255, 255);
+}
+
+/* Menu burger*/
+button .btn .btn-outline-dark .dropdown-toggle {
+    z-index: auto;
+    float: left;
+    position: relative;
+}
+
+.btn-outline-dark {
+    border: #CCC 0.1px solid !important;
+}
+
+.accordion-button:not(.collapsed) {
+    box-shadow: none;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+.accordion-item {
+    border: none;
+}
+
+.sidenav {
+    height: 100%;
+    width: 15.2em;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -250px;
+    background: #ffffff;
+    font-family: monospace;
+    font-weight: bold;
+    font-stretch: semi-expanded;
+    font-size: 70%;
+    box-shadow: none;
+}
+
+.sidenav a {
+    /*  margin: 7px -2px 7px -2px; */
+    text-decoration: none;
+    font-size: 1em;
+    color: #ffffff;
+    display: block;
+    border-radius: 0% !important;
+}
+
+.sidenav a:hover {
+    color: #CCC;
+}
+
+.sidenav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidenav a {
+    /* margin: 7px -2px 7px -2px;*/
+    font-size: 1em;
+    color: #000000;
+    display: block;
+}
+
+.sidenav a .dropdown-item {
+    margin: 0 !important;
+}
+
+.sidenav a:hover {
+    color: #ffffff !important;
+    background: #000000;
+    text-decoration: none;
+}
+
+.sidenav button:hover {
+    color: #ffffff !important;
+    background: #000000;
+    text-decoration: none;
+}
+
+.sidenav ul {
+    list-style-type: none;
+    background: #ffffff;
+    padding: 0;
+    margin: 0;
+    /*border: #CCC 0.25px solid;*/
+}
+
+.sidenav li {
+    border: #CCC 0.1px solid;
+}
+
+.sidenav li:hover {
+    border: #CCC 0.1px solid;
+    color: #000;
+}
+
+li {
+    padding: -15%;
+}
+
+.sidenav.active {
+    left: 0;
+}
+
+.sidenav .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+
+.btn-outline-dark.focus,
+.btn-outline-dark:focus {
+    box-shadow: none !important;
+}
+
+.burger-icon span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: rgb(100, 100, 100);
+    border-radius: 15%;
+    margin: 5px 0;
+}
+
+.sidenav.active {
+    left: 0;
+}
+
+.sidenav .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+
+.burger-icon span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: rgb(100, 100, 100);
+    border-radius: 15%;
+    margin: 5px 0;
+}
+
+/* Menu Dropdown 
+
+
+
+
+
+/*background variations */
+
+#home {
+    background-image: url(./photo/portrait_I-Fang_Lin_C_DominiqueLibert-1000x500.jpg);
+}
+
+#methode {
+    background-image: url(./photo/1200x630_jocelyn-cottencin.jpg);
+}
+
+/*Contact*/
+
+#contact {
+    background-image: url(./photo/auLarge.jpg);
+}
+
+#maiastra {
+    background-image: url(./photo/maxresdefault.jpg);
+}
+
+/*créations*/
+
+#chinoiseries {
+    background-image: url(./photo/enchinoiseries.jpg);
+}
+
+#skein {
+    background-image: url(./photo/7_889526.jpg);
+}
+
+#ebloui {
+    background-image: url(./photo/01234633.jpg)
+}
+
+#auLarge {
+    background-image: url(./photo/image.jpg)
+}
+
+#origine {
+    background-image: url(./photo/123140932.jpg)
+}
+
+#combat {
+    background-image: url(./photo/121245427.jpg)
+}
+
+#collab {
+    background-image: url(./photo/Micro_halle_1_Marielle_Rossignol-51.jpg)
+}
+
+#film {
+    background-image: url(./photo/Capture\ d’écran\ 2022-12-08\ 174114.jpg);
+}
+
+
+
+/*Media Queries*/
+
+@media screen and (max-width: 768px) {}
+
+
+@media screen and (min-width: 769px) {
+
+    /*Menu Medium & Large Screen*/
+
+    .sidenav {
+        position: absolute;
+        height: 16%;
+        background: white;
+        left: 0px;
+        margin-left: 31px;
+        border: none;
+    }
+
+    .sidenav.active {
+        background-color: transparent !important;
+    }
+
+    .sidenav .close {
+        display: none;
+    }
+
+    .burger-icon span {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+
+    .bg-image{
+        padding-right: 58.4em;
+        padding-left: 58.4em;
+        padding-top: 67.4em;
+    }
+}

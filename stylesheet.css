@@ -513,7 +513,7 @@ div >.bg-image {
     }
 
     .sidenav.active{
-        background-color: transparent !important;
+        background-color: transparent;
     }
 
     .sidenav .close {
