@@ -31,6 +31,15 @@ header {
     margin-top: 0em;
 }
 
+.bg-imagecontain {
+    align-self: center;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    margin-top: 0em;
+}
+
+
 .conteneur{
     display: flex;
     flex-direction: row;
@@ -464,5 +473,13 @@ li {
 
     .presentation{
         width: 40%;
+    }
+
+}
+
+@media screen and (min-width: 1181px){
+    .bg-imagecontain {
+        background-color: #000;
+        background-size: contain;
     }
 }
