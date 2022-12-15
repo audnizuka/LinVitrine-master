@@ -306,7 +306,7 @@ button .btn .btn-outline-dark .dropdown-toggle {
     margin: 0 !important;
 }
 
-.sidenav a:hover {
+.sidenav li a:hover {
     color: #ffffff !important;
     background: #000000;
     text-decoration: none;
@@ -347,6 +347,11 @@ li {
     top: 0;
     right: 25px;
     font-size: 36px;
+    color: #fff;
+}
+
+a.close:hover{
+    color: transparent !important;
 }
 
 .btn-outline-dark.focus,
@@ -363,15 +368,6 @@ li {
     margin: 5px 0;
 }
 
-.burger-icon-white span {
-    display: block;
-    width: 35px;
-    height: 5px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 15%;
-    margin: 5px 0;
-}
-
 .sidenav.active {
     left: 0;
 }
@@ -379,7 +375,7 @@ li {
 .sidenav .close {
     position: absolute;
     top: 0;
-    right: 25px;
+    right: -25px;
     font-size: 36px;
 }
 
@@ -396,7 +392,7 @@ li {
     display: block;
     width: 35px;
     height: 5px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.599);
     border-radius: 15%;
     margin: 5px 0;
 }
