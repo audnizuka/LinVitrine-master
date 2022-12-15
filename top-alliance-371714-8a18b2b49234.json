@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "top-alliance-371714",
+  "private_key_id": "8a18b2b492340a6ad29bbdfc02bcde1f4387778a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDDvCODbvb7lrA3\nXxcWrfXLFaqDx8XtNjNhDqFsKZizppcmt889PmIe9WULCFFN8Nnn/zQyzMDi4jpW\njF+lNCiXUYbV04diJLWTxLKa8NDTh2Spa3Mx1mRbp0amlxJ43IJ17YI0tX+eW7k/\nyQh3TQ1RJ+T8XTAVBIYtH3y/S2VoyC5XoFZRaZ/Oc5H18Uqzn6S8cLrwu+a9FiXx\nFNs7QLkV0mBfxLSkLqjDxgwkup0ojSAD4IE3XGUQgW3XmITuxgHaNNiF7osvfBKr\no5UhpIZ8+HSoeXe0NxDajD+GoF7uUYMMworsJGgZB41z38Taq9+TnO99u5ajusUQ\n8EcvdubxAgMBAAECggEAEkFKfaBchBfofO2PMXQNg8CUS+CWptpCffeXmgciIQU1\nPSzw9NkL3S/NWfNPY+nF5POCCofaqH5paveCFx4PeBdoMCqfiol6btruPnGdxFCx\nFHT7RCdm6j5mYjSeSivktftuBJz1107eLuMAuWG0D4DdRCUrzhYDLpOsdonhXh19\ndUWfx8D+pA5h4UZiQGodp3pRnnzspcNh/Xjc36pJl7hDE2Xmex0fUfBijVtFXzUc\nplnULo0YrBHfhANfCRFBQl2dQVVGOxAsg4o1T843bChhOuPjRdI+GK0hxD0qTbZZ\n8mc2+RytylkwBECxXF9wGvDmAjlT7n25i8py+1YRUQKBgQD2No87ZdJwoaJhbWnO\nTaIiwcyc8TiWECmOcPYDqPWF0q/YIyNYgGCYzcbp0RIbngG0rkSUGpnmlybjhtaR\ngA83Z01A5LTwDLU+cmfuF+pv28IxAGJhW/ivtkHYqX77WH6+lDEbPS6MnNRMQNX3\nrxaQMSSVaO4BN4ponlWHFo9taQKBgQDLg+r/8+HjH6o1pZ3RqO98Bxo5NZJdzvai\nFQAIdVXWlclsiPE8bwspfx+wJ1/O7n0koyVlSlvZotjzTNtUfRlkEi5RPKmWmSx5\n320kwpD7JjL4fxz0XmZcPq2KoHyOZ8bdseOK9ONpdQ9ggm3twKdUyup8RhB+8w5x\n2WrQcNCUSQKBgQD1uJHOF9qj6cxjK40TBcuwoHWSk/ODYHH45KfCE1elzRUNwlO+\nObEuDwBbzfoicdkF934dyUabKXL4VFPENmf5RTGGeDpT8HrZ7dfneRrRtCLkQJvu\nypkw09Z3YwGF21Xy4Xb41mCkmMgPqg1g+e6szT7TljsiH8oUiyCUh2FxMQKBgAeG\nNg8Gfkh+aDWZjO8udsQ4IwEQePvc5gNyEVE+vVC0swC/Q2P/mwMKvyotGn61FI1h\nNsW67RBr0+eS5N0HzwODJJE+U+rMePd8ijV8uA2BCQtk77YdM12ft5zTeCdvsMuL\ngyUlDq9cc5gW2mea4tTgt7Cmin+XDuaoqilQsnV5AoGAP/aSVewh2Km1qwZHkH6L\n/wSdiFGmJSV9OZdsmljcBOMzTLsSvdY6P47lTJgl3CuBY0GYS24OHUazTafGDwbH\ntEnUAmFcpCE98T6VECoto5IGWjdgzDl9bxCQ+gNObeY2VlVBTlZS+JVGNrHTh9SM\nS3SIdKRDZuhyj0E674rvqhU=\n-----END PRIVATE KEY-----\n",
+  "client_email": "calendrier-compagnie-de-danse@top-alliance-371714.iam.gserviceaccount.com",
+  "client_id": "116827677985183334682",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/calendrier-compagnie-de-danse%40top-alliance-371714.iam.gserviceaccount.com"
+}
