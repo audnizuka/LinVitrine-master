@@ -23,7 +23,7 @@ header {
 
 }
 
-.bg-image {
+.bg-image,.bg-imagecontain,.bg-imagecontainwhite,.bg-imagesmall,.bg-imageresized {
     align-self: center;
     background-repeat: no-repeat;
     background-position: top center;
@@ -31,28 +31,11 @@ header {
     margin-top: 0em;
 }
 
-.bg-imagecontain {
-    align-self: center;
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
-    margin-top: 0em;
-}
-
-
-.bg-imagecontainwhite {
-    align-self: center;
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
-    margin-top: 0em;
-}
 
 
 .conteneur{
     display: flex;
     flex-direction: row;
-
     width: auto;
     height: auto;
 }
@@ -461,6 +444,22 @@ a.close:hover{
 /*Media Queries*/
 
 @media screen and (max-width: 768px) {
+    .bg-imagesmall {
+        background-size: 140%;
+    }
+
+    .bg-imageresized {
+        background-size: 160%;
+    }
+
+    header.bg-imageresized{
+    height: 37rem;
+    }
+
+    header {
+        height: 42rem;   
+    }
+
     .presentation{
         bottom: -1.75rem !important;
         width: 100%;
@@ -478,6 +477,7 @@ a.close:hover{
 /*Menu Medium & Large Screen*/
 
 @media screen and (min-width: 769px) {
+
 
     .sidenav {
         position: absolute;
