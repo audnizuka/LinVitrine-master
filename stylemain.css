@@ -363,6 +363,15 @@ li {
     margin: 5px 0;
 }
 
+.burger-icon-white span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15%;
+    margin: 5px 0;
+}
+
 .sidenav.active {
     left: 0;
 }
@@ -383,6 +392,14 @@ li {
     margin: 5px 0;
 }
 
+.burger-icon-white span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15%;
+    margin: 5px 0;
+}
 /* Menu Dropdown 
 
 
