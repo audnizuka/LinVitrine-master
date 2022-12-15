@@ -40,6 +40,15 @@ header {
 }
 
 
+.bg-imagecontainwhite {
+    align-self: center;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    margin-top: 0em;
+}
+
+
 .conteneur{
     display: flex;
     flex-direction: row;
@@ -115,12 +124,8 @@ h3 {
 
 
 .contact {
-    position: relative;
-    display: flex;
-    flex-direction: column;
     font-family: 'Nixie One', cursive;
-    margin-top: -18%;
-    padding-left: 1.75rem;
+    text-align: left;
 }
 
 .contact h1,
@@ -480,6 +485,11 @@ li {
 @media screen and (min-width: 1181px){
     .bg-imagecontain {
         background-color: #000;
+        background-size: contain;
+    }
+
+    .bg-imagecontainwhite {
+        background-color: rgb(255, 255, 255);
         background-size: contain;
     }
 }
