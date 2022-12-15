@@ -169,6 +169,19 @@ footer .bi:hover {
 
 
 
+/*Calendrier*/
+#calendarTitle{
+    font-family: 'Courier New', Courier, monospace !important;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -385,6 +398,13 @@ a.close:hover{
 
 
 
+
+
+
+
+
+
+
 /*background variations */
 
 #home {
@@ -438,6 +458,19 @@ a.close:hover{
 #film {
     background-image: url(./photo/Capture\ d’écran\ 2022-12-08\ 174114.jpg);
 }
+
+#agenda{
+    background-image: url(./photo/image_danse.jpg);
+}
+
+
+
+
+
+
+
+
+
 
 
 
