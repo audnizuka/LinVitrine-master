@@ -121,7 +121,8 @@ h3 {
     font-weight: 600;
 }
 
-.box2 {
+.box2,
+.boxAgenda {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -500,6 +501,11 @@ a.close:hover {
 /*Media Queries*/
 
 @media screen and (max-width: 768px) {
+    p {
+        font-size: 0.97rem !important;
+    }
+
+
     .bg-imagesmall {
         background-size: 140%;
     }
@@ -522,8 +528,21 @@ a.close:hover {
         text-align: center;
     }
 
-    p {
-        font-size: 0.97rem !important;
+    .calendrier {
+        display: flex;
+        bottom: -1.75rem !important;
+        align-self: center;
+        width: 100%;
+        height: 8rem;
+    }
+
+    .styled-calendar-container {
+        height: 585px !important;
+    }
+
+    .boxAgenda {
+        position: relative;
+        bottom: -31rem;;
     }
 }
 
@@ -555,9 +574,7 @@ a.close:hover {
     .burger-icon span {
         display: none;
     }
-}
 
-@media screen and (min-width: 770px) and (max-width:1180px) {
     p {
         font-size: 1rem !important;
     }
@@ -567,11 +584,16 @@ a.close:hover {
     }
 
     .calendrier {
-        width: 49rem;
-        height: 36rem;
+        width: 32rem;
+        height: 37rem;
+    }
+
+    .styled-calendar-container {
+        height: 600px !important;
     }
 
 }
+
 
 @media screen and (min-width: 1181px) {
     .bg-imagecontain {
@@ -583,4 +605,16 @@ a.close:hover {
         background-color: rgb(255, 255, 255);
         background-size: contain;
     }
+
+    .calendrier {
+        padding: 2.5rem 0 0 1.5rem;
+        margin: 0.5rem 0 0 0.5rem;
+        width: 50rem;
+        height: 39rem;
+    }
+
+    .styled-calendar-container {
+        height: 570px !important;
+    }
+
 }
