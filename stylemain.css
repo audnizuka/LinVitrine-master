@@ -144,6 +144,11 @@ li>p{
     display: list-item;
     list-style-type: none;
     list-style-position: outside;
+    margin: 1.5em;;
+}
+
+.list1>ol>ul>li,.list2>ol>ul>li{
+    margin: 1.5em;;
 }
 
 .contact {
