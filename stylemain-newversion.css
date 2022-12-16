@@ -24,6 +24,18 @@ header {
 
 }
 
+.list1>ol,.list2>ol{
+    display: list-item;
+    list-style-type: none;
+    list-style-position: outside;
+}
+
+.list1>ol>ul,.list2>ol>ul{
+    display: list-item;
+    list-style-type: none;
+    list-style-position: outside;
+}
+
 .bg-image,
 .bg-imagecontain,
 .bg-imagecontainwhite,
