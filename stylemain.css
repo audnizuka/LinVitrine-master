@@ -558,13 +558,13 @@ a.close:hover {
         font-weight: bold !important;
     }
 
-.bg-imagecontact{
-    background-size: 190%;
-}
+    .bg-imagecontact {
+        background-size: 190%;
+    }
 
-header.bg-imagecontact {
-    height: 20rem;
-}
+    header.bg-imagecontact {
+        height: 20rem;
+    }
 
     .bg-imagesmall {
         background-size: 140%;
@@ -609,7 +609,6 @@ header.bg-imagecontact {
 
     footer {
         margin: 2.75em 0.75em 2.5em 0.75em;
-
     }
 }
 
@@ -665,14 +664,14 @@ header.bg-imagecontact {
         width: 57%;
     }
 
-    .bg-imagecontact{
+    .bg-imagecontact {
         background-size: 100%;
     }
-    
+
     header.bg-imagecontact {
         height: 19rem;
     }
-    
+
 
     .calendrier {
         width: 32rem;
@@ -706,10 +705,10 @@ header.bg-imagecontact {
         font-size: 1.25em !important;
     }
 
-    .bg-imagecontact{
+    .bg-imagecontact {
         background-size: 120%;
     }
-    
+
     header.bg-imagecontact {
         height: 32.5rem;
     }
