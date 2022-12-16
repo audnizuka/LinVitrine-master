@@ -82,6 +82,11 @@ p {
     font-family: monospace;
 }
 
+.presentation>section>p{
+    font-family: 'Nixie One', cursive;
+    font-weight: 550;
+}
+
 #txt1,#txt2,#txt3 {
     font-family: 'Courier New', Courier, monospace;
 }
@@ -501,7 +506,7 @@ a.close:hover {
 @media screen and (max-width: 768px) {
 
     #txt1,#txt2,#txt3{
-        margin: 0 6% 0 6%;
+        margin: 0 7% 0 7%;
     }
     
     #txt1,#txt2,#txt3>p{
@@ -564,11 +569,11 @@ a.close:hover {
 
 
     #txt2{
-        margin: 1em 6em 0 6em;
+        margin: 2em 12% 0 12%;
     }
     
     #txt1,#txt2,#txt3>p{
-        font-size: 1em !important;
+        font-size: 1.1em !important;
     }
 
 
