@@ -3,7 +3,7 @@
 body {
     background: rgb(255, 255, 255);
     margin: auto !important;
-    max-width: 140rem;
+    max-width: 1140px;
     max-height: 1290px;
     font-family: 'Courier New', Courier, monospace;
     box-sizing: border-box;
@@ -65,7 +65,7 @@ header {
 }
 
 section {
-    margin: 1.25em;
+    margin: 1.75em;
 }
 
 main {
@@ -82,12 +82,18 @@ p {
     font-family: monospace;
 }
 
-#txt1 {
+#txt1,#txt2,#txt3 {
     font-family: 'Courier New', Courier, monospace;
 }
 
-#txt2 {
-    font-family: 'Courier New', Courier, monospace;
+#txt2{
+    margin: 1em 8.5em 0 8.5em;
+}
+
+#txt1,#txt2,#txt3>p{
+    text-align: justify;
+    font-size: 1.2em !important;
+    font-weight: 500;
 }
 
 h1,
@@ -150,7 +156,7 @@ h6+p {
 
 /*footer*/
 footer {
-    margin: 2.75em 0 0 0;
+    margin: 2.75em 0 2.5em 0;
     position: relative;
     text-align: center;
     font-weight: bolder;
@@ -490,21 +496,18 @@ a.close:hover {
 
 
 
-
-
-
-
-
-
-
-
-
 /*Media Queries*/
 
 @media screen and (max-width: 768px) {
-    p {
-        font-size: 0.97rem !important;
+
+    #txt1,#txt2,#txt3{
+        margin: 0 6% 0 6%;
     }
+    
+    #txt1,#txt2,#txt3>p{
+        font-size: 0.97em !important;
+    }
+
 
 
     .bg-imagesmall {
@@ -545,6 +548,11 @@ a.close:hover {
         position: relative;
         bottom: -31rem;;
     }
+
+    footer {
+        margin: 2.75em 0.75em 2.5em 0.75em;
+
+    }
 }
 
 
@@ -553,6 +561,15 @@ a.close:hover {
 /*Menu Medium & Large Screen*/
 
 @media screen and (min-width: 769px) {
+
+
+    #txt2{
+        margin: 1em 6em 0 6em;
+    }
+    
+    #txt1,#txt2,#txt3>p{
+        font-size: 1em !important;
+    }
 
 
     .sidenav {
@@ -593,10 +610,14 @@ a.close:hover {
         height: 600px !important;
     }
 
+    footer {
+        margin: 2.75em 0.75em 2.5em 0.75em;
+    }
+
 }
 
 
-@media screen and (min-width: 1181px) {
+@media screen and (min-width: 1140px) {
     .bg-imagecontain {
         background-color: #000;
         background-size: contain;
@@ -617,5 +638,4 @@ a.close:hover {
     .styled-calendar-container {
         height: 570px !important;
     }
-
 }
