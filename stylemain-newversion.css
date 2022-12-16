@@ -124,6 +124,7 @@ h3 {
 .box2,
 .boxAgenda {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
