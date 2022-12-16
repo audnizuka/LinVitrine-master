@@ -28,7 +28,8 @@ header {
 .bg-imagecontain,
 .bg-imagecontainwhite,
 .bg-imagesmall,
-.bg-imageresized {
+.bg-imageresized,
+.bg-imagecontact {
     align-self: center;
     background-repeat: no-repeat;
     background-position: top center;
@@ -115,40 +116,46 @@ h6 {
 }
 
 h1 {
-    font-size: 2.5em;
-    font-weight: bold;
+    font-size: 2.75em !important;
+    font-weight: bold !important;
 }
 
 h3 {
-    font-size: 1em;
+    font-size: 2.5em !important;
     font-weight: bolder;
-    font-weight: 1000;
+    font-weight: 1000 !important;
 }
 
-.list1>ol>h5,.list2>ol>h5{
+.list1>ol>h5,
+.list2>ol>h5 {
     font-size: 1.4em;
     font-weight: 800;
 }
 
-li>p{
+li>p {
     font-weight: 500;
 }
 
-.list1>ol,.list2>ol{
+.list1>ol,
+.list2>ol {
     display: list-item;
     list-style-type: none;
     list-style-position: outside;
 }
 
-.list1>ol>ul,.list2>ol>ul{
+.list1>ol>ul,
+.list2>ol>ul {
     display: list-item;
     list-style-type: none;
     list-style-position: outside;
-    margin: 1.5em;;
+    margin: 1.5em;
+    ;
 }
 
-.list1>ol>ul>li,.list2>ol>ul>li{
-    margin: 1.5em;;
+.list1>ol>ul>li,
+.list2>ol>ul>li {
+    margin: 1.5em;
+    ;
 }
 
 .contact {
@@ -546,7 +553,18 @@ a.close:hover {
         font-size: 0.97em !important;
     }
 
+    h1 {
+        font-size: 2em !important;
+        font-weight: bold !important;
+    }
 
+.bg-imagecontact{
+    background-size: 190%;
+}
+
+header.bg-imagecontact {
+    height: 20rem;
+}
 
     .bg-imagesmall {
         background-size: 140%;
@@ -647,6 +665,15 @@ a.close:hover {
         width: 57%;
     }
 
+    .bg-imagecontact{
+        background-size: 100%;
+    }
+    
+    header.bg-imagecontact {
+        height: 19rem;
+    }
+    
+
     .calendrier {
         width: 32rem;
         height: 37rem;
@@ -677,6 +704,14 @@ a.close:hover {
     #txt2,
     #txt3>p {
         font-size: 1.25em !important;
+    }
+
+    .bg-imagecontact{
+        background-size: 120%;
+    }
+    
+    header.bg-imagecontact {
+        height: 32.5rem;
     }
 
     .bg-imagecontain {
