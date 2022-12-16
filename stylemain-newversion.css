@@ -176,6 +176,34 @@ footer .bi:hover {
 
 
 
+.hr{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.hr::before,.hr::after {
+    background: currentColor;
+    color: #000;
+    content: "";
+    flex: 1;
+    height: .025em;
+    margin: 0 .5em;
+    border: 1px solid black;
+}
+
+.nom{
+    display: flex;
+}
+
+.shortHr {
+    position: relative;
+    left: 46.5%;
+    width: 7%;
+    display: flex;
+    align-items: center;
+}
+
 
 /*Calendrier*/
 #calendarTitle {
@@ -544,7 +572,8 @@ a.close:hover {
 
     .boxAgenda {
         position: relative;
-        bottom: -31rem;;
+        bottom: -31rem;
+        ;
     }
 }
 
