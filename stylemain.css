@@ -125,6 +125,15 @@ h3 {
     font-weight: 1000;
 }
 
+.list1>ol>h5,.list2>ol>h5{
+    font-size: 1.4em;
+    font-weight: 800;
+}
+
+li>p{
+    font-weight: 500;
+}
+
 .list1>ol,.list2>ol{
     display: list-item;
     list-style-type: none;
