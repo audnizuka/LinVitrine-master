@@ -82,20 +82,24 @@ p {
     font-family: monospace;
 }
 
-.presentation>section>p{
+.presentation>section>p {
     font-family: 'Nixie One', cursive;
     font-weight: 550;
 }
 
-#txt1,#txt2,#txt3 {
+#txt1,
+#txt2,
+#txt3 {
     font-family: 'Courier New', Courier, monospace;
 }
 
-#txt2{
+#txt2 {
     margin: 1em 8.5em 0 8.5em;
 }
 
-#txt1,#txt2,#txt3>p{
+#txt1,
+#txt2,
+#txt3>p {
     text-align: justify;
     font-size: 1.2em !important;
     font-weight: 500;
@@ -505,11 +509,15 @@ a.close:hover {
 
 @media screen and (max-width: 768px) {
 
-    #txt1,#txt2,#txt3{
+    #txt1,
+    #txt2,
+    #txt3 {
         margin: 0 7% 0 7%;
     }
-    
-    #txt1,#txt2,#txt3>p{
+
+    #txt1,
+    #txt2,
+    #txt3>p {
         font-size: 0.97em !important;
     }
 
@@ -531,6 +539,7 @@ a.close:hover {
         height: 42rem;
     }
 
+
     .presentation {
         bottom: -1.75rem !important;
         width: 100%;
@@ -551,7 +560,8 @@ a.close:hover {
 
     .boxAgenda {
         position: relative;
-        bottom: -31rem;;
+        bottom: -31rem;
+        ;
     }
 
     footer {
@@ -568,11 +578,13 @@ a.close:hover {
 @media screen and (min-width: 769px) {
 
 
-    #txt2{
+    #txt2 {
         margin: 2em 12% 0 12%;
     }
-    
-    #txt1,#txt2,#txt3>p{
+
+    #txt1,
+    #txt2,
+    #txt3>p {
         font-size: 1.1em !important;
     }
 
@@ -606,6 +618,10 @@ a.close:hover {
         width: 40%;
     }
 
+    .methode>.presentation {
+        width: 57%;
+    }
+
     .calendrier {
         width: 32rem;
         height: 37rem;
@@ -623,6 +639,21 @@ a.close:hover {
 
 
 @media screen and (min-width: 1140px) {
+
+    section {
+        margin: 2em;
+    }
+
+    #txt2 {
+        margin: 1.5em 16.75% 0 16.75%;
+    }
+
+    #txt1,
+    #txt2,
+    #txt3>p {
+        font-size: 1.25em !important;
+    }
+
     .bg-imagecontain {
         background-color: #000;
         background-size: contain;
