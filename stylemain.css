@@ -630,7 +630,6 @@ a.close:hover {
         font-size: 1.1em !important;
     }
 
-
     .sidenav {
         position: absolute;
         height: 18.7em;
@@ -703,6 +702,11 @@ a.close:hover {
     #txt2,
     #txt3>p {
         font-size: 1.25em !important;
+    }
+
+    
+    .presentation>.biographie p{
+        font-size: 1.25rem !important;
     }
 
     .bg-imagecontact {
