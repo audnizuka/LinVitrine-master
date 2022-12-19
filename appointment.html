@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
-    <title>Représentations</title>
+    <title>Prise de rendez-vous</title>
 
 </head>
 
@@ -99,13 +99,34 @@
                     <span></span>
                 </span>
             </a>
-            <div class="calendrier">
-                    <iframe src="https://embed.styledcalendar.com/#hLwpHGDR9fmyOX72GlrM" title="Styled Calendar" class="styled-calendar-container" style="width: 100%; border: none;" data-cy="calendar-embed-iframe"></iframe>
-<script async type="module" src="https://embed.styledcalendar.com/assets/parent-window.js"></script>
-                    <!--  Google calendar no CSS <script async type="module" src="https://embed.styledcalendar.com/assets/parent-window.js"></script>
 
-                    <iframe src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%23ffffff&ctz=Europe%2FParis&showTabs=0&showPrint=0&showCalendars=0&showTz=0&showDate=1&src=MjU0YzAxZTFlMjE3YWM4ZjUyYTY0ZDY4YjBmNjE1NTQ4MjE4Yjc3OWY1NTMxZmJiZTE3YjQ0OGFiNmMwZTAwNUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23616161" style="border-width:0" width="500" height="300" frameborder="0" scrolling="no"></iframe>
-                -->
+            <div class="appointment">
+                <form action="ifanglin@gmail.com" method="post">
+                    <fieldset><legend>Formulaire de contact</legend>
+                    <ul>
+                        <li>
+                            <label for="name">Nom :</label>
+                            <input type="text" id="name" name="user_name" />
+                        </li>
+                        <li>
+                            <label for="mail">Téléphone </label>
+                            <input type="tel" id="tel" name="user_tel" />
+                        </li>
+                        <li>
+                            <label for="mail">E-mail:</label>
+                            <input type="email" id="mail" name="user_email" />
+                        </li>
+                        <li>
+                            <label for="msg">Message:</label>
+                            <textarea id="msg" name="user_message"></textarea>
+                        </li>
+                    </ul>
+                </fieldset>
+                <button class="btn btn-outline-dark font-monospace rounded-0" type="submit">Envoyer</button>
+                </form>
+
+
+                </form>
             </div>
 
         </div>
@@ -148,23 +169,8 @@
                         </svg></a>
                 </button>
             </div>
-
         </div>
     </footer>
-
-
-    <script src="./monjs.js"></script>
-    <script src="./hover.js"></script>
-    <script src="./hoverStyle.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-        crossorigin="anonymous"></script>
 
 </body>
 
