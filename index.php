@@ -144,7 +144,7 @@ if (! empty($_POST["send"])) {
     $email = $_POST["userEmail"];
     $subject = $_POST["subject"];
     $content = $_POST["content"];
-    $conn = mysqli_connect("localhost", "root", "test", "contactform_database") or die("Connection Error: " . mysqli_error($conn));
+    $conn = mysqli_connect("localhost", "root", "test", "linDB") or die("Connection Error: " . mysqli_error($conn));
     $stmt = $conn->prepare("INSERT INTO tblcontact (user_name, user_email, subject,content) VALUES (?, ?, ?, ?)");
     $stmt->bind_param("ssss", $name, $email, $subject, $content);
     $stmt->execute();
