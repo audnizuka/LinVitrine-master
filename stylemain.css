@@ -435,7 +435,7 @@ button .btn .btn-outline-dark .dropdown-toggle {
 
 .sidenav {
     height: 100%;
-    width: 15.2em;
+    width: 14em;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -529,6 +529,30 @@ a.close:hover {
 .btn-outline-dark.focus,
 .btn-outline-dark:focus {
     box-shadow: none !important;
+}
+
+.btn {
+    padding: 0 !important;
+}
+
+.btn>a {
+    height: 2em;
+    width: 9em;
+} 
+
+.btn>a {
+    height: 2em;
+    width: 9em;
+}
+
+.accordion-item>.btn {
+    height: 2em;
+    width: 10em;
+}
+
+
+.methodebtn{
+    height: 3.25em !important;
 }
 
 .burger-icon span {
@@ -737,7 +761,7 @@ a.close:hover {
 
     .sidenav {
         position: absolute;
-        height: 18.7em;
+        height: 16.25em;
         background: white;
         left: 0px;
         margin-top: 0.75rem;
