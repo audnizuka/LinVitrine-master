@@ -225,8 +225,7 @@ fieldset {
     position: relative;
 }
 
-.appointment>ul,
-li {
+.appointment>ul>li {
     list-style: none;
     margin: 0.75em;
 }
@@ -810,6 +809,9 @@ a.close:hover {
         font-size: 1.25em !important;
     }
 
+    .collaboration {
+        padding-left: 0;
+    }
 
     .presentation>.biographie p {
         font-size: 1.25rem !important;
@@ -842,5 +844,9 @@ a.close:hover {
 
     .styled-calendar-container {
         height: 570px !important;
+    }
+
+    footer {
+        margin: 2.75em 0 3.5em 0;
     }
 }
