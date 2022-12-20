@@ -741,7 +741,9 @@ a.close:hover {
     }
 }
 
-
+.sidenav {
+    width: 14.3em;
+}
 
 
 /*Menu Medium & Large Screen*/

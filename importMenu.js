@@ -1,0 +1,1 @@
+$("#menu").load("ajax/menu.html");
