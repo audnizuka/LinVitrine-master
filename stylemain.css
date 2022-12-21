@@ -705,22 +705,25 @@ a.close:hover {
     }
 
     .bg-imageresized {
-        background-size: 160%;
+        background-size: 110%;
     }
 
     header.bg-imageresized {
-        height: 37rem;
+        height: 36rem;
     }
 
     header {
         height: 42rem;
     }
 
+    section{
+        margin: 1em 17% 0 17%;
+    }
 
     .presentation {
         bottom: -1.75rem !important;
         width: 100%;
-        text-align: center;
+        text-align: justify;
     }
 
     .calendrier {
@@ -751,19 +754,39 @@ a.close:hover {
 }
 
 
+@media screen and (min-width: 768px) and (max-width: 970px) {
+    .bg-imageresized {
+        background-size: contain !important;
+        height: 43.5em;
+    }
+
+    #home>.conteneur>.presentation {
+        bottom: 0 !important;
+        width: 100%;
+        text-align: justify;
+        max-width: 100%;
+    }
+
+    .biographie {
+        margin: 0em 23% 0 23%;
+    }
+}
+
+
+
 /*Menu Medium & Large Screen*/
 
 @media screen and (min-width: 769px) {
 
 
     #txt2 {
-        margin: 2em 12% 0 12%;
+        margin: 2em 22% 0 22%;
     }
 
     #txt1,
     #txt2,
     #txt3>p {
-        font-size: 1.1em !important;
+        font-size: 1em !important;
     }
 
     .sidenav {
@@ -838,13 +861,13 @@ a.close:hover {
     }
 
     #txt2 {
-        margin: 1.5em 16.75% 0 16.75%;
+        margin: 1.5em 22.75% 0 22.75%;
     }
 
     #txt1,
     #txt2,
     #txt3>p {
-        font-size: 1.25em !important;
+        font-size: 1em !important;
     }
 
     .collaboration {
@@ -852,7 +875,7 @@ a.close:hover {
     }
 
     .presentation>.biographie p {
-        font-size: 1.25rem !important;
+        font-size: 1em !important;
     }
 
     .bg-imagecontact {
