@@ -127,7 +127,6 @@ h1 {
 }
 
 h3 {
-    font-size: 2.5rem !important;
     font-weight: 300 !important;
 }
 
@@ -428,7 +427,7 @@ button .btn .btn-outline-dark .dropdown-toggle {
     z-index: auto;
     float: left;
     position: relative;
-    transition: all 0.5s ease-out;
+    transition: all 0.5ms ease-out;
 }
 
 .btn-outline-dark {
@@ -460,6 +459,7 @@ button .btn .btn-outline-dark .dropdown-toggle {
     font-stretch: semi-expanded;
     font-size: 70%;
     box-shadow: none;
+    transition: all 0.5ms ease-out;
 }
 
 .sidenav a {
@@ -531,7 +531,7 @@ li {
 
 .sidenav.active {
     left: 0;
-    transition: all 0.5s ease-out;
+    transition: all 0.5ms ease-out;
 }
 
 .sidenav .close {
@@ -545,6 +545,7 @@ li {
 
 a.close:hover {
     color: transparent !important;
+    
 }
 
 .btn-outline-dark.focus,
@@ -732,6 +733,23 @@ a.close:hover {
         background-size: 110%;
     }
 
+    .collaboration>div {
+        margin-top: 3.5rem;
+        margin-right: 0;
+    }
+
+    .list1 > ol > ul, .list2 > ol > ul {
+        margin: 0.25rem;
+    }
+
+    .list1 > ol > ul > li, .list2 > ol > ul > li {
+        margin: 0.25rem;
+    }
+
+.list1 {
+    align-self: flex-start;
+}
+
     header.bg-imageresized {
         height: 36rem;
     }
@@ -833,6 +851,23 @@ a.close:hover {
         font-size: 1rem !important;
     }
 
+    h3 {
+        font-size: 2rem !important;
+    }
+
+    .collaboration>div {
+        margin-top: 3.5rem;
+        margin-right: 0;
+    }
+
+    .list1 > ol > ul, .list2 > ol > ul {
+        margin: 0.25rem;
+    }
+
+    .list1 > ol > ul > li, .list2 > ol > ul > li {
+        margin: 0.25rem;
+    }
+
     .sidenav {
         position: absolute;
         height: 11.35rem;
@@ -912,6 +947,10 @@ a.close:hover {
     #txt2,
     #txt3>p {
         font-size: 1rem !important;
+    }
+
+    h3 {
+        font-size: 2.5rem !important;
     }
 
     .collaboration {
