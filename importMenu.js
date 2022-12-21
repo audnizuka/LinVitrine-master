@@ -1,4 +1,65 @@
-//var sidenav = document.getElementById("mySidenav");
+var sidenav = document.getElementById("mySidenav");
+
+$.ajax({
+    method: "GET",
+    url: "ajax/menu.html",
+    dataType: "html"
+})
+    .done(function (data) {
+        $("#menu").html(data);
+        $("#openBtn").on("click", function() {
+            $("#mySidenav").addClass("active");
+        });
+        $("#closeBtn").on("click", function() {
+            $("#mySidenav").removeClass("active");
+        });
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //function openNav() {
   //  $("#mySidenav").classList.add("active");
@@ -13,25 +74,6 @@
 
 
 //$("#menu").load("ajax/menu.html");
-
-
-
-$.ajax({
-    method: "GET",
-    url: "ajax/menu.html",
-    dataType: "html"
-})
-    .done(function (data) {
-        $("#menu").html(data);
-        $("#openBtn").on("click", function() {
-            $("mySidenav").classList.add("active");
-        });
-        $("#closeBtn").on("click", function() {
-            console.log( $( this ).text("cvfcd") );
-        });
-    });
-
-
 
 
 
