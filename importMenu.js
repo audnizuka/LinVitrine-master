@@ -1,4 +1,4 @@
-var sidenav = document.getElementById("mySidenav");
+//var sidenav = document.getElementById("mySidenav");
 
 $.ajax({
     method: "GET",
