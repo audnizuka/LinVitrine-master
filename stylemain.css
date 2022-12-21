@@ -492,7 +492,7 @@ button .btn .btn-outline-dark .dropdown-toggle {
 
 a:hover {
     color: rgb(255, 255, 255) !important;
-	text-decoration: none !important;
+    text-decoration: none !important;
 }
 
 .sidenav ul {
@@ -543,7 +543,7 @@ a.close:hover {
 .btn>a {
     height: 2em;
     width: 9em;
-} 
+}
 
 .btn>a {
     height: 2em;
@@ -556,7 +556,7 @@ a.close:hover {
 }
 
 
-.methodebtn{
+.methodebtn {
     height: 3.25em !important;
 }
 
@@ -792,7 +792,14 @@ a.close:hover {
     }
 
     .presentation {
-        width: 40%;
+        max-width: 33%;
+    }
+
+    #auLarge>.conteneur>.presentation,
+    #skein>.conteneur>.presentation,
+    #chinoiseries>.conteneur>.presentation,
+    #ebloui>.conteneur>.presentation {
+        width: 20%;
     }
 
     .methode>.presentation {
