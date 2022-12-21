@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nixie+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
 
 body {
     background: rgb(255, 255, 255);
     margin: auto !important;
     max-width: 1140px;
     max-height: 1290px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
 
@@ -34,7 +35,7 @@ header {
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
-    margin-top: 0em;
+    margin-top: 0rem;
 }
 
 
@@ -56,8 +57,12 @@ header {
 
 .presentation {
     position: absolute;
-    background-color: #fff;
+    background-color: #ffffffbd;
     width: 28%;
+}
+
+#presentationCombat{
+    background-color: #ffffffed;
 }
 
 .conteneur .presentation {
@@ -66,7 +71,7 @@ header {
 }
 
 section {
-    margin: 1.75em;
+    margin: 1.75rem;
 }
 
 main {
@@ -80,60 +85,68 @@ main {
 p {
     color: rgb(0, 0, 0);
     font-size: 1rem !important;
-    font-family: monospace;
+    font-family: 'Roboto', sans-serif;
 }
 
 .presentation>section>p {
-    font-family: 'Nixie One', cursive;
-    font-weight: 550;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
 }
 
 #txt1,
 #txt2,
 #txt3 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto', sans-serif;
 }
 
 #txt2 {
-    margin: 1em 8.5em 0 8.5em;
+    margin: 1em 8.5rem 0 8.5rem;
 }
 
 #txt1,
 #txt2,
 #txt3>p {
     text-align: justify;
-    font-size: 1.2em !important;
-    font-weight: 500;
+    font-size: 1.2rem !important;
+    font-weight: 200;
 }
 
-h1,
+
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-family: 'Nixie One', cursive !important;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1 {
-    font-size: 2.75em !important;
+    font-family: 'Nixie One', cursive;
+    font-size: 2.75rem !important;
     font-weight: bold !important;
 }
 
 h3 {
-    font-size: 2.5em !important;
-    font-weight: bolder;
-    font-weight: 1000 !important;
+    font-size: 2.5rem !important;
+    font-weight: 300 !important;
+}
+
+h4, h5{
+    font-weight: 300 !important;
+}
+
+h6{
+    font-weight: 200 !important;
 }
 
 .list1>ol>h5,
 .list2>ol>h5 {
-    font-size: 1.4em;
+    font-size: 1.4rem;
     font-weight: 800;
 }
 
 li>p {
-    font-weight: 500;
+    font-weight: 300;
 }
 
 .list1>ol,
@@ -148,24 +161,24 @@ li>p {
     display: list-item;
     list-style-type: none;
     list-style-position: outside;
-    margin: 1.5em;
+    margin: 1.5rem;
     ;
 }
 
 .list1>ol>ul>li,
 .list2>ol>ul>li {
-    margin: 1.5em;
+    margin: 1.5rem;
     ;
 }
 
 .contact {
-    font-family: 'Nixie One', cursive;
+    font-family: 'Roboto', sans-serif;
     text-align: left;
 }
 
 .contact h1,
 .contact h2 {
-    font-weight: 600;
+    font-weight: 300;
 }
 
 .box2,
@@ -178,7 +191,7 @@ li>p {
 .collaboration {
     position: relative;
     display: flex;
-    font-family: 'Nixie One', cursive;
+    font-family: 'Roboto', sans-serif;
     margin-top: -2%;
     padding-left: 1.75rem;
 
@@ -190,7 +203,7 @@ li>p {
 }
 
 h6+p {
-    font-family: 'Nixie One', cursive !important;
+    font-family: 'Roboto', sans-serif !important;
     font-size: 1.25rem !important;
 }
 
@@ -202,8 +215,8 @@ h6+p {
     position: absolute;
     bottom: 0;
     right: 0;
-    height: 30em;
-    width: 27em;
+    height: 30rem;
+    width: 27rem;
 }
 
 .form-container {
@@ -211,8 +224,8 @@ h6+p {
     position: absolute;
     bottom: 0;
     right: 0;
-    height: 28em;
-    width: 37em;
+    height: 28rem;
+    width: 37rem;
 }
 
 form {
@@ -227,7 +240,7 @@ fieldset {
 
 .appointment>ul>li {
     list-style: none;
-    margin: 0.75em;
+    margin: 0.75rem;
 }
 
 input.input-field {
@@ -240,7 +253,7 @@ input,
 textarea {
     position: absolute;
     right: 0;
-    margin-right: 1em !important;
+    margin-right: 1rem !important;
     outline: 0;
 }
 
@@ -258,42 +271,42 @@ textarea:focus {
 legend {
     position: relative;
     text-align: center;
-    margin-top: 1em;
-    margin-bottom: 2em;
-    font-size: 1.75em !important;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.75rem !important;
 }
 
 label,
 legend {
-    font-family: 'Nixie One', cursive;
+    font-family:'Roboto', sans-serif;
 }
 
 label {
-    margin-left: 2em;
+    margin-left: 2rem;
 }
 
 form>button {
     position: absolute;
     bottom: 0;
-    margin: 1.5em;
-    width: 7em;
-    height: 2em;
+    margin: 1.5rem;
+    width: 7rem;
+    height: 2rem;
     align-self: center;
 }
 
 .envoyer {
     position: absolute;
-    margin-bottom: 1.5em;
+    margin-bottom: 1.5rem;
     bottom: 0;
     right: 0;
 }
 
 form>button>p {
-    margin: 5em;
+    margin: 5rem;
 }
 
 textarea {
-    height: 10em;
+    height: 10rem;
     resize: none !important;
     overflow: scroll !important;
 }
@@ -302,7 +315,7 @@ textarea {
 
 /*footer*/
 footer {
-    margin: 2.75em 0 2.5em 0;
+    margin: 2.75rem 0 2.5rem 0;
     position: relative;
     text-align: center;
     font-weight: bolder;
@@ -312,8 +325,8 @@ footer {
 .icon {
     height: auto;
     width: auto;
-    max-width: 1.3em;
-    max-height: 1.3em;
+    max-width: 1.3rem;
+    max-height: 1.3rem;
 }
 
 .bi {
@@ -330,7 +343,7 @@ footer .bi:hover {
 
 /*Calendrier*/
 #calendarTitle {
-    font-family: 'Courier New', Courier, monospace !important;
+    font-family: 'Roboto', sans-serif !important;
 }
 
 .calendrier {
@@ -415,6 +428,7 @@ button .btn .btn-outline-dark .dropdown-toggle {
     z-index: auto;
     float: left;
     position: relative;
+    transition: all 0.5s ease-out;
 }
 
 .btn-outline-dark {
@@ -435,13 +449,13 @@ button .btn .btn-outline-dark .dropdown-toggle {
 
 .sidenav {
     height: 100%;
-    width: 14em;
+    width: 14rem;
     position: fixed;
     z-index: 1;
     top: 0;
     left: -250px;
     background: #ffffff;
-    font-family: monospace;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-stretch: semi-expanded;
     font-size: 70%;
@@ -451,7 +465,7 @@ button .btn .btn-outline-dark .dropdown-toggle {
 .sidenav a {
     /*  margin: 7px -2px 7px -2px; */
     text-decoration: none;
-    font-size: 1em;
+    font-size: 1rem;
     color: #ffffff;
     display: block;
     border-radius: 0% !important;
@@ -469,7 +483,7 @@ button .btn .btn-outline-dark .dropdown-toggle {
 
 .sidenav a {
     /* margin: 7px -2px 7px -2px;*/
-    font-size: 1em;
+    font-size: 1rem;
     color: #000000;
     display: block;
 }
@@ -517,6 +531,7 @@ li {
 
 .sidenav.active {
     left: 0;
+    transition: all 0.5s ease-out;
 }
 
 .sidenav .close {
@@ -525,6 +540,7 @@ li {
     right: 25px;
     font-size: 36px;
     color: #fff;
+    transition: all 0.5s ease-out;
 }
 
 a.close:hover {
@@ -541,23 +557,27 @@ a.close:hover {
 }
 
 .btn>a {
-    height: 2em;
-    width: 9em;
-}
-
-.btn>a {
-    height: 2em;
-    width: 9.9em;
+    height: 2rem;
+    width: 9.9rem;
+    font-weight: 300;
+    font-family:'Roboto', sans-serif !important;
 }
 
 .accordion-item>.btn {
-    height: 2em;
-    width: 10em;
+    height: 2rem;
+    width: 11rem;
+    font-weight: 300;
+    font-family:'Roboto', sans-serif !important;
+}
+
+.dropdown-item {
+    font-weight: 300 !important;
+    font-size: 0.9rem !important;
 }
 
 
 .methodebtn {
-    height: 3.25em !important;
+    height: 3.25rem !important;
 }
 
 .burger-icon span {
@@ -684,15 +704,15 @@ a.close:hover {
     #txt1,
     #txt2,
     #txt3>p {
-        font-size: 0.97em !important;
+        font-size: 0.97rem !important;
     }
 
     #txt1{
-        margin: 2em 7% 1em 7% !important;
+        margin: 2rem 7% 1rem 7% !important;
     }
 
     h1 {
-        font-size: 2em !important;
+        font-size: 2rem !important;
         font-weight: bold !important;
     }
 
@@ -721,11 +741,11 @@ a.close:hover {
     }
 
     .biographie{
-        margin: 1em 17% 0 17%;
+        margin: 1rem 17% 0 17%;
     }
 
     section{
-        margin: 1em 17% 0 17%;
+        margin: 1rem 17% 0 17%;
     }
 
     .presentation {
@@ -735,15 +755,15 @@ a.close:hover {
     }
 
     .œuvre{
-        margin: 1em 21% 0 21%;
+        margin: 1rem 21% 0 21%;
         text-align: left;
     }
 
     .textOfŒuvre{
-        margin-top: 2em;
+        margin-top: 2rem;
     }
     .œuvreWithText {
-        margin: 0.25em 7% 0 7% !important;
+        margin: 0.25rem 7% 0 7% !important;
         text-align: left !important;
     }
 
@@ -767,12 +787,12 @@ a.close:hover {
     }
 
     footer {
-        margin: 2.75em 0.75em 2.5em 0.75em;
+        margin: 2.75rem 0.75rem 2.5rem 0.75rem;
     }
 }
 
 .sidenav {
-    width: 14.3em;
+    width: 11rem;
 }
 
 
@@ -781,7 +801,7 @@ a.close:hover {
 @media screen and (min-width: 768px) and (max-width: 970px) {
     .bg-imageresized {
         background-size: contain !important;
-        height: 43.5em;
+        height: 43.5rem;
     }
 
     #home>.conteneur>.presentation {
@@ -792,7 +812,7 @@ a.close:hover {
     }
 
     .biographie {
-        margin: 0em 23% 0 23%;
+        margin: 0rem 23% 0 23%;
     }
 }
 
@@ -804,18 +824,18 @@ a.close:hover {
 
 
     #txt2 {
-        margin: 2em 22% 0 22%;
+        margin: 2rem 22% 0 22%;
     }
 
     #txt1,
     #txt2,
     #txt3>p {
-        font-size: 1em !important;
+        font-size: 1rem !important;
     }
 
     .sidenav {
         position: absolute;
-        height: 16.25em;
+        height: 11.35rem;
         background: white;
         left: 0px;
         margin-top: 0.75rem;
@@ -872,7 +892,7 @@ a.close:hover {
     }
 
     footer {
-        margin: 2.75em 0.75em 2.5em 0.75em;
+        margin: 2.75rem 0.75rem 2.5rem 0.75rem;
     }
 
 }
@@ -881,17 +901,17 @@ a.close:hover {
 @media screen and (min-width: 1140px) {
 
     section {
-        margin: 2em;
+        margin: 2rem;
     }
 
     #txt2 {
-        margin: 1.5em 22.75% 0 22.75%;
+        margin: 1.5rem 22.75% 0 22.75%;
     }
 
     #txt1,
     #txt2,
     #txt3>p {
-        font-size: 1em !important;
+        font-size: 1rem !important;
     }
 
     .collaboration {
@@ -899,7 +919,7 @@ a.close:hover {
     }
 
     .presentation>.biographie p {
-        font-size: 1em !important;
+        font-size: 1rem !important;
     }
 
     .bg-imagecontact {
@@ -932,6 +952,6 @@ a.close:hover {
     }
 
     footer {
-        margin: 2.75em 0 3.5em 0;
+        margin: 2.75rem 0 3.5rem 0;
     }
 }
