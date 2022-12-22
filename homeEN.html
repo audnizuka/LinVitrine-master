@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -20,41 +21,52 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
-    <title>Praticienne Feldenkrais®</title>
+    <title>I-Fang Lin </title>
 
 </head>
 
 <body>
-    <header class="bg-imagesmall" id="methode">
+
+
+    <header class="bg-imageresized" id="home">
         <div class="conteneur">
-            <div id="menu"></div>
-            <div class="methode">
-                <div class="presentation">
-                    <section>
-                        <h4>La Méthode Feldenkrais</h4>
-                    </section>
+
+                <!--Début internationalisation-->
+                <div id="switchEnglish" class="english">
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                        <label class="btn btn-outline-dark text-start rounded-0">
+                            <input type="radio" name="options" id="option1" autocomplete="off" checked><a href="./home.html">FR</a>
+                        </label>
+                        <label class="btn btn-outline-dark text-start rounded-0">
+                            <input type="radio" name="options" id="option3" autocomplete="off"><a href="./homeEN.html">EN</a>
+                        </label>
+                    </div>
                 </div>
+                <!--Fin internationalisation-->
+
+            <div id="menu">
             </div>
+
+            <div class="presentation">
+                <section class="biographie">
+                    <p>I-Fang Lin is a practitioner of the Feldenkrais method and an artist-choreographer,
+                        iconic performer of the scene
+                        French and European contemporary dance.
+                        <br>
+                        <br>
+                        Since 2010, she accompanies artists who wish to refine
+                        their presence on stage. She offers a job
+                        on physicality is based on observation and taking
+                        of consciousness through movement.
+                    </p>
+                </section>
+            </div>
+
         </div>
     </header>
 
+
     <main>
-        <div class="presentation-large">
-            <section>
-                <hr>
-                <p id="txt2">
-                    Le Feldenkrais une pratique somatique créé par Moshe Feldenkrais dans les
-                    années 1950. <br>
-                    Praticienne Feldenkrais® depuis 2004, I-Fang Lin à été formé auprès de gens qui
-                    eux mêmes ont été
-                    formé par Moshe Feldenkrais. <br><br> Elle utilise cette technique adossée à son expérience de
-                    danseuse, de performeuse et de chorégraphe. Durant les dernières années,
-                    elle a enseigné ces cours de prises de conscience par le mouvement
-                    au travers de workshops ou de master class à la fois dans des CCN,
-                    comme dans des lieux de pratiques amateurs.
-                </p>
-            </section>
-        </div>
     </main>
 
 
@@ -97,7 +109,9 @@
     </div>
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="./importMenu.js"></script>
+    <script src="./importMenuEN.js"></script>
+    <script src="./hover.js"></script>
+    <script src="./hoverStyle.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>

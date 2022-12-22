@@ -10,6 +10,8 @@ body {
     box-sizing: border-box;
 }
 
+/*Début positionnement*/
+
 main {
     display: flex;
     flex-direction: column;
@@ -38,15 +40,12 @@ header {
     margin-top: 0rem;
 }
 
-
-
 .conteneur {
     display: flex;
     flex-direction: row;
     width: auto;
     height: auto;
 }
-
 
 .sidenav {
     position: absolute;
@@ -82,6 +81,11 @@ main {
     text-align: center;
 }
 
+/*Fin  positionnement*/
+
+
+
+
 p {
     color: rgb(0, 0, 0);
     font-size: 1rem !important;
@@ -110,7 +114,6 @@ p {
     font-size: 1.2rem !important;
     font-weight: 200;
 }
-
 
 h2,
 h3,
@@ -208,108 +211,6 @@ h6+p {
 }
 
 
-/*Form*/
-
-.appointment {
-    background-color: #fff;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    height: 30rem;
-    width: 27rem;
-}
-
-.form-container {
-    background-color: #fff;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    height: 28rem;
-    width: 37rem;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-
-fieldset {
-    position: relative;
-}
-
-.appointment>ul>li {
-    list-style: none;
-    margin: 0.75rem;
-}
-
-input.input-field {
-    width: 15em;
-    margin-top: -2.1em;
-    margin-right: 14.8em !important;
-}
-
-input,
-textarea {
-    position: absolute;
-    right: 0;
-    margin-right: 1rem !important;
-    outline: 0;
-}
-
-input,
-textarea:focus {
-    box-shadow: none;
-}
-
-.form-correction:focus {
-    outline: 0;
-    box-shadow: none;
-}
-
-
-legend {
-    position: relative;
-    text-align: center;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    font-size: 1.75rem !important;
-}
-
-label,
-legend {
-    font-family: 'Roboto', sans-serif;
-}
-
-label {
-    margin-left: 2rem;
-}
-
-form>button {
-    position: absolute;
-    bottom: 0;
-    margin: 1.5rem;
-    width: 7rem;
-    height: 2rem;
-    align-self: center;
-}
-
-.envoyer {
-    position: absolute;
-    margin-bottom: 1.5rem;
-    bottom: 0;
-    right: 0;
-}
-
-form>button>p {
-    margin: 5rem;
-}
-
-textarea {
-    height: 10rem;
-    resize: none !important;
-    overflow: scroll !important;
-}
 
 
 
@@ -340,45 +241,7 @@ footer .bi:hover {
 
 
 
-
-/*Calendrier*/
-#calendarTitle {
-    font-family: 'Roboto', sans-serif !important;
-}
-
-.calendrier {
-    position: absolute;
-    background-color: #fff;
-    width: 40%;
-}
-
-.conteneur .calendrier {
-    bottom: 0;
-    right: 0;
-}
-
-.fc-credit-button {
-    display: none !important;
-}
-
-.styled-calendar-container {
-    width: 100%;
-    border: medium none;
-    overflow: hidden;
-    height: 600px !important;
-}
-
-
-
-
-
-
-
-
-
-
-
-/*Accordion*/
+/*Début Menu*/
 
 #openBtn {
     margin: 0.75rem;
@@ -423,7 +286,6 @@ button {
     border-color: rgb(255, 255, 255);
 }
 
-/* Menu burger*/
 button .btn .btn-outline-dark .dropdown-toggle {
     z-index: auto;
     float: left;
@@ -449,7 +311,7 @@ button .btn .btn-outline-dark .dropdown-toggle {
 
 .sidenav {
     height: 100%;
-    width: 14rem;
+    width: 11rem;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -464,7 +326,6 @@ button .btn .btn-outline-dark .dropdown-toggle {
 }
 
 .sidenav a {
-    /*  margin: 7px -2px 7px -2px; */
     text-decoration: none;
     font-size: 1rem;
     color: #ffffff;
@@ -483,7 +344,6 @@ button .btn .btn-outline-dark .dropdown-toggle {
 }
 
 .sidenav a {
-    /* margin: 7px -2px 7px -2px;*/
     font-size: 1rem;
     color: #000000;
     display: block;
@@ -576,6 +436,7 @@ a.close:hover {
     font-family: 'Roboto', sans-serif !important;
 }
 
+
 .accordion-item>.btn {
     height: 2rem;
     width: 11rem;
@@ -631,7 +492,7 @@ a.close:hover {
     margin: 5px 0;
 }
 
-/* Menu Dropdown 
+/*Fin  Menu */
 
 
 
@@ -644,10 +505,10 @@ a.close:hover {
 
 
 
-/*background variations */
+/* Début background variations */
 
 #home {
-    background-image: url(./photo/portrait_I-Fang_Lin_C_DominiqueLibert-1000x500.jpg);
+    background-image: url(./photo/IfangHomePage.jpg);
 }
 
 #methode {
@@ -704,9 +565,11 @@ a.close:hover {
     background-image: url(./photo/image_danse.jpg);
 }
 
+/* Fin background variations */
 
 
-/*Media Queries*/
+
+/*Media Queries Small Screen*/
 
 @media screen and (max-width: 768px) {
 
@@ -848,14 +711,17 @@ a.close:hover {
     footer {
         margin: 2.75rem 0.75rem 2.5rem 0.75rem;
     }
+
+    .sidenav {
+        width: 11rem;
+    }
 }
 
-.sidenav {
-    width: 11rem;
-}
+/* Fin Media Queries Small Screen*/
 
 
 
+/*Media Queries Medium*/
 
 @media screen and (min-width: 768px) and (max-width: 970px) {
     .bg-imageresized {
@@ -875,9 +741,6 @@ a.close:hover {
     }
 }
 
-
-
-/*Menu Medium & Large Screen*/
 
 @media screen and (min-width: 769px) {
 
@@ -991,6 +854,11 @@ a.close:hover {
 
 }
 
+/* Fin Media Queries Medium Screen*/
+
+
+
+/*Media Queries Large Screen*/
 
 @media screen and (min-width: 1140px) {
 
@@ -1053,3 +921,191 @@ a.close:hover {
         margin: 2.75rem 0 3.5rem 0;
     }
 }
+
+/*Fin Media Queries Large Screen*/
+
+
+
+
+/*Début internationalisation*/
+
+.english .btn a {
+    display: inline-block;
+    font-weight: 300;
+    font-size: 0.9rem;
+    height: 1.4rem !important;
+    width: 1.7rem !important;
+    font-family: 'Roboto', sans-serif !important;
+    text-decoration: none !important;
+}
+
+.english .btn a:hover {
+    color: #ffffff !important;
+    background: #000000;
+    text-decoration: none;
+}
+
+
+.english .btn {
+    text-align: center !important;
+    height: 1.7rem;
+    width: 1.8rem;
+    background-color: #fff;
+}
+
+.english {
+    position: absolute;
+    margin-top: 0.5rem;
+    right:0;
+}
+
+.btn-outline-dark:not(:disabled):not(.disabled).active,
+.btn-outline-dark:not(:disabled):not(.disabled):active,
+.show>.btn-outline-dark.dropdown-toggle {
+    color: #fff !important;
+    background-color: #CCC !important;
+}
+
+/*Fin internationalisation*/
+
+
+
+
+
+
+
+/*Cimetière des pages non-utilisées*/
+
+/*Calendrier*/
+#calendarTitle {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.calendrier {
+    position: absolute;
+    background-color: #fff;
+    width: 40%;
+}
+
+.conteneur .calendrier {
+    bottom: 0;
+    right: 0;
+}
+
+.fc-credit-button {
+    display: none !important;
+}
+
+.styled-calendar-container {
+    width: 100%;
+    border: medium none;
+    overflow: hidden;
+    height: 600px !important;
+}
+
+/*Fin Calendrier*/
+
+
+
+/*Form*/
+.appointment {
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 30rem;
+    width: 27rem;
+}
+
+.form-container {
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 28rem;
+    width: 37rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+fieldset {
+    position: relative;
+}
+
+.appointment>ul>li {
+    list-style: none;
+    margin: 0.75rem;
+}
+
+input.input-field {
+    width: 15em;
+    margin-top: -2.1em;
+    margin-right: 14.8em !important;
+}
+
+input,
+textarea {
+    position: absolute;
+    right: 0;
+    margin-right: 1rem !important;
+    outline: 0;
+}
+
+input,
+textarea:focus {
+    box-shadow: none;
+}
+
+.form-correction:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+
+legend {
+    position: relative;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.75rem !important;
+}
+
+label,
+legend {
+    font-family: 'Roboto', sans-serif;
+}
+
+label {
+    margin-left: 2rem;
+}
+
+form>button {
+    position: absolute;
+    bottom: 0;
+    margin: 1.5rem;
+    width: 7rem;
+    height: 2rem;
+    align-self: center;
+}
+
+.envoyer {
+    position: absolute;
+    margin-bottom: 1.5rem;
+    bottom: 0;
+    right: 0;
+}
+
+form>button>p {
+    margin: 5rem;
+}
+
+textarea {
+    height: 10rem;
+    resize: none !important;
+    overflow: scroll !important;
+}
+/*Fin Form*/
