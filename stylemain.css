@@ -309,9 +309,13 @@ button .btn .btn-outline-dark .dropdown-toggle {
     border: none;
 }
 
+.accordion {
+    width: 10rem !important;
+}
+
 .sidenav {
     height: 100%;
-    width: 11rem;
+    width: 10rem;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -424,6 +428,23 @@ a.close:hover {
 .btn-outline-dark:focus {
     box-shadow: none !important;
 }
+
+.accordion-button {
+    height: 2rem;
+    font-weight: 300;
+    padding: 0 !important;
+    border-bottom: none !important;
+    border-right: none !important;
+}
+
+.accordion-body{
+    padding: 0 !important;
+}
+
+.dropdown-toggle{
+    color: #fff;
+}
+
 
 .btn {
     padding: 0 !important;
@@ -956,7 +977,7 @@ a.close:hover {
 .english {
     position: absolute;
     margin-top: 0.5rem;
-    right:0;
+    right: 0;
 }
 
 .btn-outline-dark:not(:disabled):not(.disabled).active,
@@ -1108,4 +1129,5 @@ textarea {
     resize: none !important;
     overflow: scroll !important;
 }
+
 /*Fin Form*/
