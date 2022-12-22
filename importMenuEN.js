@@ -2,7 +2,7 @@
 
 $.ajax({
     method: "GET",
-    url: "ajax/menuAccordionBSauto.html",
+    url: "ajax/menuEN.html",
     dataType: "html"
 })
     .done(function (data) {
