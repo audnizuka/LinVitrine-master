@@ -61,7 +61,7 @@ header {
     width: 28%;
 }
 
-#presentationCombat{
+#presentationCombat {
     background-color: #ffffffed;
 }
 
@@ -130,11 +130,12 @@ h3 {
     font-weight: 300 !important;
 }
 
-h4, h5{
+h4,
+h5 {
     font-weight: 300 !important;
 }
 
-h6{
+h6 {
     font-weight: 200 !important;
 }
 
@@ -277,7 +278,7 @@ legend {
 
 label,
 legend {
-    font-family:'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 label {
@@ -504,8 +505,19 @@ button .btn .btn-outline-dark .dropdown-toggle {
     text-decoration: none;
 }
 
-a:hover {
+.sidenav a:hover {
     color: rgb(255, 255, 255) !important;
+    text-decoration: none !important;
+}
+
+a {
+    color: #000 !important;
+    text-decoration: underline !important;
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+
+.sidenav a {
     text-decoration: none !important;
 }
 
@@ -545,7 +557,7 @@ li {
 
 a.close:hover {
     color: transparent !important;
-    
+
 }
 
 .btn-outline-dark.focus,
@@ -561,14 +573,14 @@ a.close:hover {
     height: 2rem;
     width: 9.9rem;
     font-weight: 300;
-    font-family:'Roboto', sans-serif !important;
+    font-family: 'Roboto', sans-serif !important;
 }
 
 .accordion-item>.btn {
     height: 2rem;
     width: 11rem;
     font-weight: 300;
-    font-family:'Roboto', sans-serif !important;
+    font-family: 'Roboto', sans-serif !important;
 }
 
 .dropdown-item {
@@ -678,6 +690,8 @@ a.close:hover {
     background-image: url(./photo/121245427.jpg)
 }
 
+/*Collaborations*/
+
 #collab {
     background-image: url(./photo/Micro_halle_1_Marielle_Rossignol-51.jpg)
 }
@@ -708,7 +722,7 @@ a.close:hover {
         font-size: 0.97rem !important;
     }
 
-    #txt1{
+    #txt1 {
         margin: 2rem 7% 1rem 7% !important;
     }
 
@@ -726,11 +740,36 @@ a.close:hover {
     }
 
     .bg-imagesmall {
-        background-size: 140%;
+        background-size: cover;
+
+    }
+
+    #methode,
+    #maiastra,
+    #chinoiseries,
+    #film,
+    #collab {
+        height: 33rem;
+    }
+
+    #skein,
+    #ebloui,
+    #auLarge,
+    #origine {
+        height: 36rem;
+    }
+
+    #presentationCombat {
+        background-color: #ffffff;
     }
 
     .bg-imageresized {
         background-size: 110%;
+    }
+
+    .collaboration {
+        display: flex;
+        flex-direction: column;
     }
 
     .collaboration>div {
@@ -738,17 +777,16 @@ a.close:hover {
         margin-right: 0;
     }
 
-    .list1 > ol > ul, .list2 > ol > ul {
+    .list1>ol>ul,
+    .list2>ol>ul {
         margin: 0.25rem;
     }
 
-    .list1 > ol > ul > li, .list2 > ol > ul > li {
+    .list1>ol>ul>li,
+    .list2>ol>ul>li {
         margin: 0.25rem;
     }
 
-.list1 {
-    align-self: flex-start;
-}
 
     header.bg-imageresized {
         height: 36rem;
@@ -758,11 +796,11 @@ a.close:hover {
         height: 42rem;
     }
 
-    .biographie{
+    .biographie {
         margin: 1rem 17% 0 17%;
     }
 
-    section{
+    section {
         margin: 1rem 17% 0 17%;
     }
 
@@ -770,16 +808,19 @@ a.close:hover {
         bottom: -1.75rem !important;
         width: 100%;
         text-align: justify;
+        background-color: #ffffff;
     }
 
-    .œuvre{
+
+    .œuvre {
         margin: 1rem 21% 0 21%;
         text-align: left;
     }
 
-    .textOfŒuvre{
+    .textOfŒuvre {
         margin-top: 2rem;
     }
+
     .œuvreWithText {
         margin: 0.25rem 7% 0 7% !important;
         text-align: left !important;
@@ -860,11 +901,13 @@ a.close:hover {
         margin-right: 0;
     }
 
-    .list1 > ol > ul, .list2 > ol > ul {
+    .list1>ol>ul,
+    .list2>ol>ul {
         margin: 0.25rem;
     }
 
-    .list1 > ol > ul > li, .list2 > ol > ul > li {
+    .list1>ol>ul>li,
+    .list2>ol>ul>li {
         margin: 0.25rem;
     }
 
@@ -914,6 +957,22 @@ a.close:hover {
 
     header.bg-imagecontact {
         height: 19rem;
+    }
+
+    #collab,
+    #film {
+        height: 31rem;
+    }
+
+    #methode {
+        height: 35.25rem;
+    }
+
+    #film {
+
+        background-size: 82%;
+        background-color: #000;
+        background-position: center;
     }
 
 
